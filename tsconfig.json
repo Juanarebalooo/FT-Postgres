@@ -1,0 +1,7 @@
+{
+  "compileOptions": {
+    "target": "Esnext",
+    "moduleResolution": "nodenext",
+    "module": "nodenext"
+  }
+}
