@@ -1,9 +1,11 @@
 import { sequelize } from "./db";
 import { Product } from "./db/product";
 import express from "express";
+import cors from "cors";
 async function main() {
   const app = express();
   app.use(express.json());
+  app.use(cors());
   const PORT = process.env.PORT || 3000;
   await sequelize.sync({ alter: true });
   app.post("/products", async (req, res) => {
