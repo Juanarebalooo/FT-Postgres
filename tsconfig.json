@@ -4,6 +4,7 @@
     "moduleResolution": "nodenext",
     "module": "nodenext",
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist"
   }
 }
