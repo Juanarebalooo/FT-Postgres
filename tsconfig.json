@@ -1,7 +1,9 @@
 {
-  "compileOptions": {
+  "compilerOptions": {
     "target": "Esnext",
     "moduleResolution": "nodenext",
-    "module": "nodenext"
+    "module": "nodenext",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   }
 }
